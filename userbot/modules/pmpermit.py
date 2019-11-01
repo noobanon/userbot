@@ -38,7 +38,7 @@ async def permitpm(event):
                 from userbot.modules.sql_helper.globals import gvarstatus
             except AttributeError:
                 return
-            apprv = is_gandu_approved(event.chat_id)
+            apprv = is_approved(event.chat_id)
             notifsoff = gvarstatus("NOTIF_OFF")
 
             # This part basically is a sanity check
