@@ -18,8 +18,9 @@ from userbot.events import register
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
     "`Hello! This is an automated message.\n\n`"
-    "`I haven't approved you to PM yet.`"
-    "`Please wait for me to look in, I mostly approve PMs.\n\n`"
+    "`Mera BOss Busy hai khi aur jake gand marao.`"
+    "`Rukjaa thdi der tb tk @Amazers03_bot pe msg krle.`"
+    "`Nhi th khi aur jake Maa Chudao aur faltu message kiya th reply nhi aaega.\n\n`"
     "`Until then, please don't spam my PM, you'll get blocked and reported!`")
 # =================================================================
 
@@ -37,7 +38,7 @@ async def permitpm(event):
                 from userbot.modules.sql_helper.globals import gvarstatus
             except AttributeError:
                 return
-            apprv = is_approved(event.chat_id)
+            apprv = is_gandu_approved(event.chat_id)
             notifsoff = gvarstatus("NOTIF_OFF")
 
             # This part basically is a sanity check
