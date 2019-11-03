@@ -91,7 +91,7 @@ async def locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=lock_rights))
-        await event.edit(f"`Locked {what} for this chat !!`")
+        await event.edit(f"`anonyCrew locked {what} in ZonersChat Because its Rest Time Nimba!!`")
     except BaseException as e:
         await event.edit(
             f"`Do I have proper rights for that ??`\n**Error:** {str(e)}")
@@ -179,7 +179,7 @@ async def rem_locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=unlock_rights))
-        await event.edit(f"`Unlocked {what} for this chat !!`")
+        await event.edit(f"`anonyCrew Unlocked {what} for ZonersChat chat bhay Start Chit Chat !!`")
     except BaseException as e:
         await event.edit(
             f"`Do I have proper rights for that ??`\n**Error:** {str(e)}")
