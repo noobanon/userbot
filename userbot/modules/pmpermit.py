@@ -21,7 +21,7 @@ from userbot.events import register
 UNAPPROVED_MSG = ("`Welcome, You are a wonderful person with a wonderful view of life.`\n\n"
                   "`Your companionship is always an opportunity But Sed This line is not for you.`"
                   "`So just tell why you are here ?`\n\n"
-                  "`Your message has been received will be responded when I'm free don't sit here whole day coz there is lots of pending message😶 by that time message me @Amazers03_bot‚`")
+                  "`Your message has been received will be responded when I'm free don't sit here whole day coz there is lots of pending message😶‚`")
 # =================================================================
 
 
@@ -187,7 +187,7 @@ async def approvepm(apprvpm):
             return
 
         await apprvpm.edit(
-            f"[{name0}](tg://user?id={uid}) ` bsdka approved to PM!`"
+            f"[{name0}](tg://user?id={uid}) ` #Maderbsdk Approved to PM uh Sir Kek!`"
         )
 
         async for message in apprvpm.client.iter_messages(apprvpm.chat_id, 
