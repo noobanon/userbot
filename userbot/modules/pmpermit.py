@@ -18,10 +18,12 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = ("`Welcome, You are a wonderful person with a wonderful view of life.`\n\n"
-                  "`Your companionship is always an opportunity But Sed This line is not for you.`"
-                  "`So just tell why you are here ?`\n\n"
-                  "`Your message has been received will be responded when I'm free don't sit here whole day coz there is lots of pending message😶‚`")
+UNAPPROVED_MSG = ("`Welcome, i'am anonyCrew Person assistant .`\n\n"
+                  "`i Got This Job after alot of struggle So Don't Rune My JoB.`"
+                  "`i have 2 kids called java or android i have to feed them😭 ?`\n\n"
+                  "`So Tell Me What You Want My Sir is Offline So Now Goto @ZonersChat For Help XD‚`"
+                  "`Don't Spam My Sir ib Els I will Block oR Report You .`\n\n"
+                  "`Or You Can Also Go to @Zonerschat and tag @baby1473 or @hamza_alive.`")
 # =================================================================
 
 
