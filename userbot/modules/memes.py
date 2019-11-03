@@ -940,6 +940,36 @@ async def hoi(hello):
     if not hello.text[0].isalpha() and hello.text[0] not in ("/", "#", "@", "!"):
         await hello.edit(random.choice(HELLOSTR))
 			  
+@register(outgoing=True, pattern="^.warn$")
+async def hoi(hello):
+    """ Greet everyone! """
+    await hello.edit(
+	  "`You Have  1/3`\n"
+	  "`Watch out!....`\n"
+	  "`Reason for warn:`\n"
+	  "`Spem Bsdk`\n"
+	  )
+
+@register(outgoing=True, pattern="^.warn2$")
+async def hoi(hello):
+    """ Greet everyone! """
+    await hello.edit(
+	  "`You Have  2/3`\n"
+	  "`Watch out!....`\n"
+	  "`Reason for Sec warn:`\n"
+	  "`Spem Bsdk`\n"
+	  )
+
+@register(outgoing=True, pattern="^.warn3$")
+async def hoi(hello):
+    """ Greet everyone! """
+    await hello.edit(
+	  "`You Have  3/3`\n"
+	  "`Watch out!....`\n"
+	  "`Reason for ban:`\n"
+	  "`Spem krta #maderchox`\n"
+	  )
+			  
 @register(outgoing=True, pattern="^.hack$")
 async def hacking (hacked):
     """ Dont Hack Too much -_-"""
