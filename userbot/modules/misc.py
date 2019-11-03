@@ -91,9 +91,9 @@ async def bot_support(wannahelp):
         \nJoin the Paperplane Extended Chat: @PaperplaneExtendedSupport")
 
 
-@register(outgoing=True, pattern="^.creator$")
-async def creator(e):
-    await e.edit("[Dev](https://t.me/AmazerS_xD)")
+@register(outgoing=True, pattern="^.user$")
+async def user(e):
+    await e.edit("[anonyCrew](https://t.me/anonyCrew)")
 
 
 @register(outgoing=True, pattern="^.readme$")
@@ -126,7 +126,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "Click [here](https://github.com/Amazers03/UserbotDevp) to lit repo."
+        "Click [here](https://github.com/noobanon/Userbox) to lit repo."
     )
 
 
