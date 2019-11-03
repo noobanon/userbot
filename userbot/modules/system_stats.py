@@ -122,8 +122,10 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("`Meh alive now go away from me `\n\n"
-            f"`Owned by noob` {DEFAULTUSER} `sur `")
+    await alive.edit("`Meh alive now bhay #Dunia_MaderChox `\n\n"
+            f"`Me iz a Rendi bot `\n"
+            f"`#Bedard_duniya bhay `\n"
+            f"`Owned by` {DEFAULTUSER} `anonyCrew `")
 
 
 @register(outgoing=True, pattern="^.aliveu")
@@ -135,7 +137,7 @@ async def amireallyaliveuser(username):
         newuser = message[8:]
         global DEFAULTUSER
         DEFAULTUSER = newuser
-        output = 'Successfully changed user to ' + newuser + '!'
+        output = 'Successfully changed bhay ' + newuser + '!'
     await username.edit("`" f"{output}" "`")
 
 
@@ -144,7 +146,7 @@ async def amireallyalivereset(ureset):
     """ For .resetalive command, reset the username in the .alive command. """
     global DEFAULTUSER
     DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-    await ureset.edit("`" "Successfully reset user for alive!" "`")
+    await ureset.edit("`" "Successfully reset bhay for alive!" "`")
 
 
 CMD_HELP.update(
