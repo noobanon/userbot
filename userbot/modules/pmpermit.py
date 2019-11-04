@@ -18,7 +18,7 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = ("`Welcome, i'am anonyCrew Person assistant .`\n\n"
+UNAPPROVED_MSG = ("`Welcome, i'am anonyCrew Personal assistant .`\n\n"
                   "`i Got This Job after alot of struggle So Don't Rune My JoB.`"
                   "`i have 2 kids called java or android i have to feed them😭 ?`\n\n"
                   "`So Tell Me What You Want My Sir is Offline So Now Goto @ZonersChat For Help XD‚`"
