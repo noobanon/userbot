@@ -19,16 +19,16 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
+    "Jai Hind Dosto😈",
+    "Plagiarising Chu Stixker hehe...",
     "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
+    "Taking this sticker Bhay...",
+    "Hey that's a nice sticker!\nNow itz Mineg?!..",
     "hehe me stel ur stikér\nhehe.",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
+    "Ay look over there (☉｡☉)!→\nWhile I kang this Kek...",
+    "Roses are red violets are blue, Yeh Sticker Mera ab Gand Mara Tu",
+    "Imprisoning this sticker Wew...",
+    "Bhay i Steal Your Sticker #MaderBsdk...",
 ]
 
 
@@ -168,7 +168,7 @@ async def kang(args):
                         await bot.send_read_acknowledge(conv.chat_id)
                         await args.edit(f"`Sticker added in a Different Pack !\
                             \nThis Pack is Newly created!\
-                            \nYour pack can be found [here](t.me/addstickers/{packname})",
+                            \nNub pack can be found [here](t.me/addstickers/{packname})",
                                         parse_mode='md')
                         return
                 if is_anim:
@@ -236,8 +236,8 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
 
-        await args.edit(f"`Sticker kanged successfully!`\
-            \nPack can be found [here](t.me/addstickers/{packname})",
+        await args.edit(f"`Sticker Stolen Bhay Now Yo Go away!`\
+            \nMoi Pru Pack Found bhay [here](t.me/addstickers/{packname})",
                         parse_mode='md')
 
 
