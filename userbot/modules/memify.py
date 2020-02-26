@@ -1,7 +1,7 @@
 """Reply to an image/sticker with .mmf` 'text on top' ; 'text on bottom
 base by: @r4v4n4
 created by: @A_Dark_Princ3
-if you change these, you gay.
+Pro gey person.
 """
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
@@ -71,7 +71,7 @@ async def _(event):
           if response.text.startswith("Forward"):
               await event.edit("```can you kindly disable your forward privacy settings for good nibba?```")
           if "Okay..." in response.text:
-            await event.edit("```🤨 NANI?! This is not an image! This will take sum tym to convert to image owo 🧐```")
+            await event.edit("```🤨 LUK! This is not an image! This will take sum tym to convert to image owo 🧐```")
             thumb = None
             if os.path.exists(thumb_image_path):
                 thumb = thumb_image_path
@@ -116,9 +116,9 @@ async def _(event):
                 # Courtesy: @A_Dark_Princ3
             )
             await event.delete()
-            await borg.send_message(event.chat_id, "`☠️☠️10 Points to Griffindor!🔥🔥`")
+            await borg.send_message(event.chat_id, "`☠️☠️10 Points to uh Lol!🔥🔥`")
           elif not is_message_image(reply_message):
-            await event.edit("Invalid message type. Plz choose right message type u NIBBA.")
+            await event.edit("Invalid message type. Plz choose right message type u Nub.")
             return
           else: 
                await borg.send_file(event.chat_id, response.media)
