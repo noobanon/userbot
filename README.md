@@ -1,4 +1,5 @@
-#Report if bot bot giving error report at @zonerschat in telegram
+<h1 align="center">Report</h1>
+if bot bot giving error report at @zonerschat in telegram
 
 
 
